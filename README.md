@@ -39,6 +39,21 @@ $ pip install -r requirements.txt
 
 4. Copy `config.sample.json` to `config.json` and complete the values, including your NRE access token from step 3 to be entered in the apiKey variable. appId is not in use in this version. _Note: station names should be provided as their three-letter station code, all available [here](https://www.nationalrail.co.uk/stations_destinations/48541.aspx)._
 
+eg:
+```bash
+{
+  "journey": {
+    "departureStation": "HBP",
+    "destinationStation": null
+  },
+  "refreshTime": 180,
+  "transportApi": {
+    "appId": "",
+    "apiKey": "xxxxxxyourxtokenxherexxxxxxx"
+  }
+}
+```
+
 5. Start the app with:
 
 ```bash
