@@ -121,13 +121,13 @@ def renderDots(draw, width, height):
 
 def loadData(apiConfig, journeyConfig):
     departures, stationName = loadDeparturesForStation(
-        journeyConfig, apiConfig["appId"], apiConfig["apiKey"])
+        journeyConfig, apiConfig["apiKey"])
 
     if len(departures) == 0:
         return False, False, stationName
 
     firstDepartureDestinations = loadDestinationsForDeparture(
-        departures[0]["serviceID"])
+        departures[0]["serviceID"], apiConfig["apiKey"])
 
     return departures, firstDepartureDestinations, stationName
 
