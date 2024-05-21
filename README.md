@@ -1,5 +1,5 @@
-# UK train departure screen - Forked
-https://github.com/chrishutchinson/train-departure-screen
+# UK train departure screen - Forked from chrishutchinson
+Original - https://github.com/chrishutchinson/train-departure-screen
 
 > Python script to display replica real-time UK railway station departure screens for SSD13xx devices
 
