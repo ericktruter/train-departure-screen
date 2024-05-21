@@ -70,8 +70,9 @@ $ python ./src/main.py --display ssd1322 --width 256 --height 64 --interface spi
 
 ## Video demo
 
-I've tweeted a video demo of the software running on a real device: https://twitter.com/chrishutchinson/status/1136743837244768257
+I've tweeted a video demo of the software running on a real device: https://twitter.com/ericktruter/status/1792897298243924400
 
 ## Thanks
 
+Thanks to Chris Hutchinson for the original version.
 The fonts used were painstakingly put together by `DanielHartUK` and can be found on GitHub at https://github.com/DanielHartUK/Dot-Matrix-Typeface - A huge thanks for making that resource available!
