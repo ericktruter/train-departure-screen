@@ -43,7 +43,7 @@ eg:
 ```bash
 {
   "journey": {
-    "departureStation": "HBP",
+    "departureStation": "rmd",
     "destinationStation": null
   },
   "refreshTime": 180,
