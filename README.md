@@ -1,6 +1,8 @@
 # UK train departure screen - Forked from chrishutchinson
 Original - https://github.com/chrishutchinson/train-departure-screen
 
+I have modified Chris Hutchinson version of the code to rahter use the Huxley 2 cross-platform JSON proxy for the GB railway Live Departure Boards. It is using their demo server comes with zero guarantees of uptime. It can (and regularly does) go down or break. 
+
 > Python script to display replica real-time UK railway station departure screens for SSD13xx devices
 
 ## Sample output
@@ -33,9 +35,9 @@ $ sudo apt-get install libopenjp2-7
 $ pip install -r requirements.txt
 ```
 
-3. Sign up for the [Transport API](https://www.transportapi.com/), and generate an app ID and API key
+3. Sign up for API access token from NRE - https://realtime.nationalrail.co.uk/OpenLDBWSRegistration/Registration
 
-4. Copy `config.sample.json` to `config.json` and complete the values, including your Transport API keys from step 3. _Note: station names should be provided as their three-letter station code, all available [here](https://www.nationalrail.co.uk/stations_destinations/48541.aspx)._
+4. Copy `config.sample.json` to `config.json` and complete the values, including your NRE access token from step 3 to be entered in the apiKey variable. appId is not in use in this version. _Note: station names should be provided as their three-letter station code, all available [here](https://www.nationalrail.co.uk/stations_destinations/48541.aspx)._
 
 5. Start the app with:
 
